@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('testimonials.css');
+@import url('footer.css');
+
+:root {
+    --color-primary-1: #fff9ea;
+    --color-primary-2: #ffe8b4;
+    --color-primary-3: #f8d477;
+    --color-primary-4: #ffe100;
+    --color-primary-5: #ffcb45;
+    --color-primary-6: #e9a209;
+
+    --color-neutral-0: #ffffff;
+    --color-neutral-9: #1d1d1d;
+    
+    --color-neutral-9-alpha: #1d1d1dad;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-widht: 1080px) {
+    html {
+        font-size: 93.75%; /* 15px */
+    }
+}
+
+@media(max-widht: 720px) {
+    html {
+        font-size: 87.75%; /* 14px */
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-primary-1);
+}
+
+section {
+    padding: 1.75rem 8%;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-5);
+    border-radius: 0.75rem;
+    padding: 0.625rem 0.875rem;
+    font-weight: 600;
+    box-shadow: 0px 0px .625rem .125rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-default:hover {
+    filter: brightness(0.9);
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 1.125rem;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8125rem;
+    height: 2.5rem;
+    background-color: var(--color-neutral-0);
+    font-size: 1.2rem;
+    border-radius: .625rem;
+    text-decoration: none;
+    color: var(--color-neutral-9);
+    box-shadow: 0px 0px 0.75rem 0.25rem rgba(0, 0, 0, 0.1);
+    transition: box-shadown 0.3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 0.75rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: var(--color-primary-6);
+    font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
+
