@@ -1,7 +1,7 @@
 <h1 align="center" id="project_name">
   <br />          
     <img height="120" width="120" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-    <img height="120" width="120" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+    <img height="120" width="120" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
     <img height="120" width="120" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
   <br />
 </h1>
@@ -37,10 +37,6 @@
  <a href="#demo">Demo</a> •
  <a href="#author">Autor</a> • 
  <a href="#license">License</a>
-</p>
-
-<p align="center">
-  <img src=".github/img/desktop.png" alt="Layout">
 </p>
 
 <h4 align="center">
