@@ -104,7 +104,7 @@ $ cd cardapiosj
 ```
 
 <h2 id="demo">🧪 Demo</h2>
-<a href="https://cardapiosj.vercel.app" target="_blank">
+<a href="https://landing-page-01-five.vercel.app" target="_blank">
 <!-- Link externo ou local(.github). -->
   <img src=".github/img/vercel_button.png">  
 </a>
