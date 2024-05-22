@@ -88,10 +88,13 @@ Before you start, you will need to have the following tools installed on your ma
 
 ```bash
 # Clone repo
-$ git clone https://github.com/risaltte/cardapiosj.git
+$ git clone https://github.com/risaltte/landing-page-01.git
 
 # Access the project folder in the terminal/cmd
-$ cd cardapiosj
+$ cd landing-page-01
+
+# Open the project in the vscode
+$ code .
 
 # Install and run Live server on vscode
 
